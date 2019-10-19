@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 int main(){
 
 	int a=5, b=10;
@@ -9,6 +8,11 @@ int main(){
 	return 0;
 }
 
+
 int  sum(int a, int b){
-	retun (a+b); 
+	retun a+b; 
+}
+
+int diff(int a, int b){
+	return a-b;
 }
